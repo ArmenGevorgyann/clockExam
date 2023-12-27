@@ -1,0 +1,28 @@
+.TimeContainer {
+	width: 900px;
+	height: 300px;
+	border: 3px solid rgb(100, 108, 255);
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-family: 'Rubik Doodle Shadow', sans-serif;
+	font-size: 6em;
+	letter-spacing: 8px;
+	color: rgb(100, 108, 255);
+	box-shadow: -5px 0 5px rgba(100, 108, 255, 50%), inset -5px 0 5px rgba(100, 108, 255, 50%);
+
+	& > .time {
+		width: 160px;
+	}
+
+	& > .doubleDots {
+		width: 60px;
+	}
+
+	& > * {
+		// border: 1px solid white;
+		text-align: left;
+	}
+}
